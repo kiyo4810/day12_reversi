@@ -6,8 +6,13 @@
 //   console.log("ログには隠しメッセージを入れよう");
 // });
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("target").textContent = "getElementByIDに変えたバージョン";
-  console.log("getElementByIDに変えたバージョン");
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   document.getElementById("target").textContent = "getElementByIDに変えたバージョン";
+//   console.log("getElementByIDに変えたバージョン");
+// });
 console.log(123, "文字列", true);
+// document.getElementById("target").textContent = "ららら";
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("target").textContent = "りりり！";
+  document.getElementById("target").textContent += "るるる！";
+});
